@@ -1,16 +1,69 @@
-# React + Vite
+Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Password Generator built with React and Vite.
+It allows you to generate strong passwords with options for special characters and numbers, and adjust the password length using a slider.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Generate random passwords using uppercase, lowercase, numbers, and special characters.
 
-## React Compiler
+Option to include numbers and/or special characters.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Adjust the password length using a slider.
 
-## Expanding the ESLint configuration
+Copy the generated password with a single click.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with React + Vite for fast development.
+
+
+Getting Started
+Prerequisites
+
+Node.js >= 18.x
+
+npm >= 8.x
+
+Install Dependencies
+git clone https://github.com/Rohit12412021/password-generator.git
+cd vite-password-generator
+npm install
+
+Run the Project Locally
+npm run dev
+
+
+Open http://localhost:5173 in your browser to see the app.
+
+How to Use
+
+Adjust the slider to select the password length.
+
+Toggle the special characters and numbers checkboxes if needed.
+
+Click GET PASSWORD to generate a new password.
+
+Click Copy to copy the password to clipboard.
+
+Project Structure
+vite-password-generator/
+├─ public/
+├─ src/
+│  ├─ components/    # Navbar or other reusable components
+│  ├─ App.jsx        # Main App
+│  ├─ main.jsx       # Entry point
+│  └─ index.css      # Styling
+├─ .gitignore
+├─ package.json
+└─ vite.config.js
+
+Tech Stack
+
+React – UI Library
+
+Vite – Dev Server & Build Tool
+
+CSS – Styling
+
+License
+
+This project is open source and free to use.
